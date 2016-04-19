@@ -3,10 +3,44 @@ body {
 }
 
 /** HEADER **/
+.navbar-default {
+	background-color: #e7e7e7;
+}
+header nav .container {
+	margin-left: 0;
+    margin-right: 0;
+}
+.navbar {
+	border-left: 0;
+	border-right: 0;
+}
+#nav-list {
+	margin: 0px;
+}
+.navbar-collapse {
+	padding-right: 0;
+	padding-left: 0;
+}
 .navbar-brand h1 { /* Restaurant name */
   font-weight: bold;
-  text-shadow: 1px 1px 1px #222;
+  text-shadow: 1px 1px 1px #000000;
   margin-top: 0;
   margin-bottom: 0;
   line-height: .75;
+  color: #222;
 }
+#nav-list li:nth-child(1) {
+	border-top: 1px solid #000000;
+}
+#nav-list li {
+	text-align: center;
+	padding: 10px;
+	border-bottom: 1px solid #000000;
+	  font-weight: bold;
+
+}
+#collapsable-nav li{
+	background-color: #FFFFFF;
+}
+
+
