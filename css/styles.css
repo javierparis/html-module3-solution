@@ -6,14 +6,6 @@ body {
 .navbar-default {
 	background-color: #e7e7e7;
 }
-header nav .container {
-	margin-left: 0;
-    margin-right: 0;
-}
-.navbar {
-	border-left: 0;
-	border-right: 0;
-}
 #nav-list {
 	margin: 0px;
 }
@@ -21,7 +13,7 @@ header nav .container {
 	padding-right: 0;
 	padding-left: 0;
 }
-.navbar-brand h1 { /* Restaurant name */
+.navbar-brand h1 { 
   font-weight: bold;
   text-shadow: 1px 1px 1px #000000;
   margin-top: 0;
@@ -46,11 +38,8 @@ header nav .container {
 /** BODY **/
 .menu-item-tile {
 	background-color: #e7e7e7;
-	height: 1000px;
+	/*height: 1000px;*/
 }
-#title {
-	text-align: center;
-}
-#text{
-
+.food-section {
+	
 }
